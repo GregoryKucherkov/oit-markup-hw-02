@@ -54,7 +54,7 @@ button {
     line-height: 1.5;
     cursor: pointer;
     letter-spacing: 0.04em;
-    
+    font-weight: 500;
 }
 
 a {
