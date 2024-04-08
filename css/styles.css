@@ -1,5 +1,4 @@
 
-
 :root {
     --primary-font: Roboto, sans-serif;
     --secondary-font: Raleway, sans-serif;
@@ -59,7 +58,9 @@ button {
 }
 
 a {
+    color: var(--navy-bl);
     text-decoration: none;
+    font-style: normal;
 }
 
 ul, ol {
@@ -69,6 +70,7 @@ ul, ol {
 /* Logo */
 .logo {
     font-family: var(--secondary-font);
+    color: var(--navy-bl);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -105,27 +107,32 @@ ul, ol {
     text-align: center;
 }
 
-.buttons-item :hover,
-.buttons-item :focus {
-    color: var(--clr-ocean);
+.btn-itms-smpl:hover,
+.btn-itms-smpl:focus {
+    background-color: var(--clr-ocean);
+    color:var(--clr-white);
 }
 
-.btn-itms-smpl-1,
 .h1-button {
     color: var(--clr-white);
     background-color: var(--clr-iris);
 }
 
-.examples {
+.h1-button:hover,
+.h1-button:focus {
+    background-color: var(--clr-ocean);
+}
+
+.types {
     line-height: 1.2;
 }
 
-.examples-descr {
+.types-descr {
     font-size: 20px;
     font-weight: 500;
 }
 
-.examples-prdct {
+.types-prdct {
     color: var(--clr-slate);
 }
 
