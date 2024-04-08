@@ -1,0 +1,147 @@
+
+
+:root {
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    --navy-bl: rgb(46, 47, 66);
+    --clr-iris: rgb(77, 90, 229);
+    --clr-slate: rgb(67, 68, 85);
+    --clr-cloud: rgb(244, 244, 253);
+    --clr-white: rgb(255, 255, 255);
+    --clr-ocean: rgb(64, 75, 191);
+}
+
+/* Base styles */ 
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-bl);
+    background-color: var(--clr-white);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    color: var(--clr-white);
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color: var(--navy-bl);
+    
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em
+
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em
+}
+
+button {
+    font-family: inherit;
+    color: var(--clr-iris);
+    background-color: var(--clr-cloud);
+    line-height: 1.5;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+/* Logo */
+.logo {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+
+.logo-acnt {
+    color: var(--clr-iris);
+}
+
+/* Classes */
+.header-nav {
+    font-weight: 500;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--clr-ocean);
+}
+
+
+.adress-opt-items a {
+    color: var(--clr-slate);   
+}
+
+.adress-opt a:hover,
+.adress-opt a:focus {
+    color: var(--clr-ocean);
+}
+
+.buttons-item {
+    text-align: center;
+}
+
+.buttons-item :hover,
+.buttons-item :focus {
+    color: var(--clr-ocean);
+}
+
+.btn-itms-smpl-1,
+.h1-button {
+    color: var(--clr-white);
+    background-color: var(--clr-iris);
+}
+
+.examples {
+    line-height: 1.2;
+}
+
+.examples-descr {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.examples-prdct {
+    color: var(--clr-slate);
+}
+
+.footer {
+    height: 312px;
+    width: 1440px;
+    background-color: var(--navy-bl);
+    color: var(--clr-cloud);
+}
+
+.footer-logo {
+    color: var(--clr-cloud);
+}
+
+.team-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--clr-slate);
+}
